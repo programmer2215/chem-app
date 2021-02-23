@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/chem-app/static/css/main.e7461cc1.chunk.css",
+    "main.js": "/chem-app/static/js/main.69c28b9d.chunk.js",
+    "main.js.map": "/chem-app/static/js/main.69c28b9d.chunk.js.map",
+    "runtime-main.js": "/chem-app/static/js/runtime-main.43298c8a.js",
+    "runtime-main.js.map": "/chem-app/static/js/runtime-main.43298c8a.js.map",
+    "static/js/2.5722c0be.chunk.js": "/chem-app/static/js/2.5722c0be.chunk.js",
+    "static/js/2.5722c0be.chunk.js.map": "/chem-app/static/js/2.5722c0be.chunk.js.map",
+    "static/js/3.fd8e3160.chunk.js": "/chem-app/static/js/3.fd8e3160.chunk.js",
+    "static/js/3.fd8e3160.chunk.js.map": "/chem-app/static/js/3.fd8e3160.chunk.js.map",
+    "index.html": "/chem-app/index.html",
+    "static/css/main.e7461cc1.chunk.css.map": "/chem-app/static/css/main.e7461cc1.chunk.css.map",
+    "static/js/2.5722c0be.chunk.js.LICENSE.txt": "/chem-app/static/js/2.5722c0be.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43298c8a.js",
+    "static/js/2.5722c0be.chunk.js",
+    "static/css/main.e7461cc1.chunk.css",
+    "static/js/main.69c28b9d.chunk.js"
+  ]
+}
