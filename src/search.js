@@ -1,32 +1,12 @@
-import React, {useEffect, useState} from 'react';
-import './App.css';
-import Element1 from'./element.js';
-import Search from './search.js';
+import React from 'react';
+import App from './App';
 
-function App() {
-  
-  var symbol = "";
-  
-  const [data, setData] = useState([]);
+function Search () {
 
-  const getElements = async (element_name) =>{
-    const response = await fetch(`https://neelpatel05.pythonanywhere.com/element/atomicname?atomicname=${element_name}`);
-    const data_raw = await response.json();
-    setData(data_raw);
     
-  }
-  
-  
-  
-     const search = () => {
-      getElements(document.getElementById("search-bar").value);
-     }
-  
 
-  return (
-    <div className="App">
-      <h1 id="title">Elemental Data</h1>
-      <div className="search-pane">
+    return(
+        <div className="search-pane">
       <form>
           <datalist id="search-res">
             <option value='Hydrogen'/>
@@ -149,17 +129,10 @@ function App() {
             <option value='Oganesson'/>
           </datalist>
         <input id="search-bar" list="search-res" type="text" defaultValue="Hydrogen"/>
-        <button id="search-btn" type="button" onClick={search}>Search</button>
+        <button id="search-btn" type="button" onClick={App.search}>Search</button>
       </form>
       </div>
+    )
+};
 
-      <Element1 results={data}/>
-      
-    
-    </div>
-    
-    
-  );
-}
-
-export default App;
+export default Search;
